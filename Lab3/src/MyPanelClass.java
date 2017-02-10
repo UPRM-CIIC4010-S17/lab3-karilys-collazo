@@ -31,7 +31,7 @@
 	                        
 	                        //Draw a second border
 	                        g.setColor(Color.RED);
-	                        int w=10;
-	                        g.drawRect(x1+w, y1+w, width-2*w, height-2*w);
+	                        int z=10;
+	                        g.drawRect(x1+z, y1+z, width-2*z, height-2*z);
 				}
 	}
