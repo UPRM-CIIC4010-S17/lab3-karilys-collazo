@@ -22,9 +22,9 @@
 	                        int height = y2 - y1;
 	 
 	                        //Paint the background
-	                        g.setColor(Color.BLACK);
+	                        g.setColor(Color.GRAY);
 	                        g.fillRect(x1, y1, width+1, height+1);
-	            
+	            /*
 	                      //Draw a border
 	                        g.setColor(Color.YELLOW);
 	                        g.drawRect(x1, y1, width, height);
@@ -33,5 +33,18 @@
 	                        g.setColor(Color.RED);
 	                        int z=10;
 	                        g.drawRect(x1+z, y1+z, width-2*z, height-2*z);
+				
+							// Draw diagonal lines
+	                        g.setColor(Color.WHITE);
+	                        g.drawLine(x1, y1, x2, y2);
+	                        
+	                        g.setColor(Color.BLUE);
+	                        g.drawLine(x2, y1, x1, y2);
+				
+				*/
+	                        int centralizeoval=55/2;
+	                        g.setColor(Color.LIGHT_GRAY);
+	                        g.fillOval(x2/2-centralizeoval, y2/2-centralizeoval, 55, 55);
+	                 
 				}
 	}
