@@ -64,7 +64,7 @@ import javax.swing.JPanel;
 	g.setColor(Color.WHITE);
 	g.fillRect(x1, space, width+1, space);
 	g.fillRect(x1, 3*space, width+1, space);
-	                        
+	                     
 //Draw Blue Triangle    
     Polygon triangle= new Polygon();
     triangle.addPoint(x1, y1);
@@ -74,6 +74,7 @@ import javax.swing.JPanel;
     g.fillPolygon(triangle);
 
 //Draw star
+    
     Polygon p2 = new Polygon();
     p2.addPoint(x1 + 25, y1 + 73);
     p2.addPoint(x1 + 41, y1 + 73);
@@ -85,7 +86,7 @@ import javax.swing.JPanel;
     p2.addPoint(x1 + 47, y1 + 88);
     p2.addPoint(x1 + 34, y1 + 98);
     p2.addPoint(x1 + 38, y1 + 83);
-    g.setColor(Color.WHITE);
+   g.setColor(Color.WHITE);
     g.fillPolygon(p2);
        }
 	}
